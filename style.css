@@ -1,0 +1,53 @@
+body{ 
+	color:rgb(0, 0, 0); /*color permet de changer la couleur de notre texte. On pourra utiliser le nom en anglais d'une couleur,son code hexadécimal ou encore le code RGB.*/
+	background-color:#78112e; /*Background-color permet de changer la couleur de fond de nos éléments*/
+	font-family:cursive; /*font-family permet de changer la police de notre site, c'est à dire le style d'écriture. On peut choisir plusieurs valeurs entre serif; sans-serif, cursive et mono-space.*/
+	font-size:18px; /*font-size permet de modifier la taille des lettres*/
+	line-height:20px /*line-height permet de modifier l'espace qu'il y a entre 2 lignes de texte*/
+	text-align:center; /*Grace a text-align il est possible de changer la position du texte en le mettant au centre avec la valeur center, left, right.*/
+	border:solid;
+	border-width:8px;
+	border-color:black;
+
+}	
+
+h1{
+	color:#b0b3af;
+	font-family:sans-serif;
+	font-variant:small-caps; /*font-variant, avec valeur small-caps permet de transformer toutes les lettres en petites majuscules*/
+	letter-spacing:3px; /*pour pouvoir modifier l'espace entre les lettres, on utilise letter-spacing*/
+
+}
+
+h2{
+	color:#b0b3af;
+	font-weight:lighter; /*grace a font-weight, il est possible de modifier l'épaisseur des lettres, lighter pour les affiner et bolder pour les épaissir*/
+}
+
+a{
+	color:#b0b3af;
+	text-decoration:none; /*le code texte-decoration avec pour valeur none permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens*/
+}
+
+a:hover{ /*grace a cette selection, il est possible de modifier la couleur de notre lien quand on passe la souris dessus*/
+	color:#4a9091;
+}
+
+div{
+	margin:25px 300px; /*margin correspond a la marge extérieur*/
+	padding:20px; /*padding correspond à la marge intérieure*/
+	border-radius:18px; /* border-radius permet d'arrondir les angles de nos bords*/
+	box-shadow:10px 10px 20px black; /*box-shadow permet d'ajouter une ombre a nos éléments*/
+}
+
+iframe{
+	border-radius:10px;
+}
+
+img{
+	border-radius:10px;	
+}
+ul{
+	text-align:center;
+	list-style-position:inside;
+}
